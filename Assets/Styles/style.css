@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inputbox {
+    width: 400px;
+    height: 420px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: aqua;   
+}
+
+.inputbox:hover {
+    box-shadow: 4px 2px 5px #000;
+}
+
+.inputbox input {
+    width: 250px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+}
+
+.inputbox button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(252, 164, 12);
+}  
+
+.inputbox ol {
+    list-style: none;
+}
