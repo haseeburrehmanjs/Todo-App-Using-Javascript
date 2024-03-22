@@ -14,7 +14,10 @@ function addfun() {
 }
 
 function renderScreen() {
-    ol.innerHTML = ' '
+    if (input.value === ''){
+        alert('Enter Your Task');
+    }else {
+        ol.innerHTML = ' '
     emptyArray.push(input.value)
     console.log(emptyArray);
     input.value = ''
@@ -25,6 +28,7 @@ function renderScreen() {
         <img class="icon" onclick="editTodo(${i})" src="./Assets/Images/edit.png" alt="">
         </li>
         `
+    }
     }
 }
 
