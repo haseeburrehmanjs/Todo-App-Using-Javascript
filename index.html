@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Todo Lsit | App</title>
+    <title>Todo List</title>
     <!-- CSS LINK -->
     <link rel="stylesheet" href="./Assets/Styles/style.css">
 
@@ -13,13 +13,19 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body style="background-color: #000;">
-    <section class="container-fluid">
-        <div class="inputbox mt-5">
-            <h1 class="text-center fw-bold">Todo App List</h1>
-            <input type="text" placeholder="Enter Your TasK!">
-            <button onclick="renderScreen()">+</button>
-            <ol class="mt-4 gap-5"></ol>
+<body id="BODY">
+    <h1 class="text-center mt-3 ">Todo List</h1>
+
+    <section class="container">
+        <div class="box-size text-center p-3">
+            <form id="form">
+                <input id="input" type="text" placeholder="Enter Your Todo Items">
+                <button>Submit</button>
+            </form>
+
+            <ul id="list" class="mt-3">
+
+            </ul>
         </div>
     </section>
 
