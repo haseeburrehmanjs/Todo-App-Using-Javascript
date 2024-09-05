@@ -41,6 +41,25 @@
 // }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let list = document.querySelector('#list')
 let input = document.querySelector('#input')
 let form = document.querySelector('#form')
@@ -51,7 +70,7 @@ function renderScreen() {
     addTodo.map((item, index) => {
         // console.log(item);
         list.innerHTML += `
-        <li class="list-style d-flex justify-content-between align-items-center mt-2">
+        <li class="list-style d-flex justify-content-between align-items-center mt-2 ">
             ${item}
            <div>
            <button onclick='deleteTodo(${index})'>Delete</button>
